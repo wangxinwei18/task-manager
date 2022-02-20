@@ -1,0 +1,4 @@
+node_modules/
+config/
+src/db/mongodb*.js
+package-lock.json

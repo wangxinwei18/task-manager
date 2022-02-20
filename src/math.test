@@ -1,0 +1,26 @@
+const { calculateSum, add } = require("../src/math");
+
+// test("calculate sum", () => {
+//   const sum = calculateSum(2, 1);
+//   expect(sum).toBe(3);
+// });
+
+// test("Async test demo", done => {
+//   setTimeout(() => {
+//     expect(1).toBe(1);
+//     done();
+//   }, 2000);
+// });
+
+// test("Should add two numbers", done => {
+//   add(2, 3).then(sum => {
+//     expect(sum).toBe(5);
+//     done();
+//   });
+// });
+
+// best way to test async await function
+test("Should add two numbers async/await", async () => {
+  const sum = await add(10, 22);
+  expect(sum).toBe(32);
+});
