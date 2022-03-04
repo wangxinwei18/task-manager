@@ -5,7 +5,7 @@ try {
     // use ./config/dev.env and install: npm i env-cmd
     process.env.MONGODB_URL,
     {
-      auth: { authSource: "admin" },
+      auth: { authSource: "task-manager-api" },
       user: process.env.USER,
       pass: process.env.PASS,
       useCreateIndex: true,
