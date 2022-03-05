@@ -25,6 +25,7 @@ git push -u origin main
 
 # test ssh key
 
+port is 3002
 push to gitee test
 test2
 test3
