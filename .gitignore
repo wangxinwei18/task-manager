@@ -1,5 +1,6 @@
 node_modules/
 config/dev.env
 config/test.env
+config/start.env
 src/db/mongodb*.js
 package-lock.json
